@@ -30,7 +30,6 @@
 > **这是一个针对 `@anthropic-ai/claude-code` 2.1.88 版本的源码整理与重建项目。**
 > 该版本发布到 npm 时附带了可还原源码的 source map。本项目基于 `sources` 和 `sourcesContent` 将其还原为可读的源码目录，旨在研究 Claude Code 的 CLI 架构、命令系统及 MCP 实现。
 
----
 
 ## 🚀 快速安装 (镜像源)
 
@@ -44,7 +43,7 @@ npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-
 
 ---
 
-## 🏗️ 项目结构概览
+## 项目结构概览
 
 本项目以 `src/` 为核心，高度还原了原始代码组织：
 
@@ -58,7 +57,7 @@ npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-
 
 ---
 
-## 🔍 源码亮点
+## 源码亮点
 
 从还原的代码中，我们可以深入探索以下核心设计：
 
@@ -78,16 +77,16 @@ npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-
 
 ---
 
-## 🛠️ 后续计划 (待补齐)
+## 后续计划 (待补齐)
 
 如果你想让它跑起来，建议按以下步骤尝试：
-1. ➕ 添加 `package.json` 并配置依赖。
-2. 🔗 补齐构建工具链。
-3. 🧩 处理 `bun:bundle` 宏与 feature flags。
-4. 🧪 验证核心命令的运行情况。
+1. 添加 `package.json` 并配置依赖。
+2. 补齐构建工具链。
+3. 处理 `bun:bundle` 宏与 feature flags。
+4. 验证核心命令的运行情况。
 
 ---
 
-## 🙏 致谢
+## 致谢
 
 感谢发布时未移除的 **Source Map**，让这份精致的工程结构得以重现。
